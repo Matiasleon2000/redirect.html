@@ -6,11 +6,11 @@
     <title>Redireccionando...</title>
     <script>
         function redirectToConfirmation() {
-            // Obtén los parámetros de la URL
+            // Obtén los parámetros de la URL actual
             var params = new URLSearchParams(window.location.search);
             
             // Construye la URL de la página de confirmación
-            var baseURL = "https://matiasleon2000.github.io/reg/";
+            var baseURL = "https://matiasleon2000.github.io/reg/"; // Cambia esto si es necesario
             var confirmUrl = baseURL + "?" + params.toString();
             
             // Redirige al usuario a la página de confirmación
